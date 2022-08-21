@@ -1,0 +1,49 @@
+.stranger_div{
+    display: flex;
+    padding: 1rem;
+    border: 2px solid gray;
+    border-radius: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+    /* justify-content: space-between; */
+}
+
+.feature2{
+    padding-bottom: 3rem;
+}
+
+.feature2_img{
+    width: 35rem;
+    height: 32rem;
+}
+
+.download{
+    color: rgba(49, 49, 240, 0.747);
+    /* margin-top: 1rem; */
+    font-size: 1.5rem;
+}
+
+.stranger_div h2{
+    font-size: 2rem;
+}
+
+.stranger_div img{
+    display: inline-block;
+    width: 5rem;
+    height: auto;
+}
+
+.stranger_div div:last-child{
+    flex: 1;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.stranger_div{
+    position: absolute;
+    bottom: 5%;
+    z-index: 95;
+    background-color: #000;
+    width: 70%;
+    left: 15%;
+}
